@@ -15,7 +15,7 @@ Faceți cunoștință cu Glimmer ✨
 
 Produse pentru păr create pentru sarcini concrete: control frizz, protecție la coafat, volum și prospețime fără îngreuare.
 
-🇪🇸 Produse în Spania, cu formule dezvoltate împreună cu echipa Cosmetic Shop — ținând cont de ce trăiește părul nostru în Moldova: climat umed, păr neascultător și poros, coafări termice zilnice.
+Produse în Spania, cu formule dezvoltate împreună cu echipa Cosmetic Shop — ținând cont de ce trăiește părul nostru în Moldova: climat umed, păr neascultător și poros, coafări termice zilnice.
 
 Nu este despre trenduri și nu este despre promisiuni. Este despre formule care funcționează și fac ceea ce trebuie să facă.
 
