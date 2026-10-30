@@ -147,3 +147,26 @@ Set 2 buc — 183 MDL (în loc de 228 MDL)*
 
 #glimmer #setcadou #cadou #ingrijireaparului #protectietermica #cosmeticshopmd #chisinau
 ```
+
+---
+
+## Reel 01 — Gama Glimmer (video 9:16, 21,6 s, fără muzică)
+
+Fișier: `reel-01-range/reel.mp4`, copertă: `reel-01-range/cover.jpg`. Generat cu `python3 scripts/make_reel.py`.
+
+```
+Gama Glimmer în 20 de secunde ✨
+
+Re:Bond — keratină + ceramide pentru păr deteriorat
+Frizz Blocker — protecție de frizz până la 4 spălări
+220 Heat Protection — protecție termică până la 220 °C
+Dry Shampoo — păr proaspăt fără apă
+Repair & Nourish — strălucire și catifelare
+
+Produse în Spania. Gândite pentru părul din Moldova.
+
+👉 Toată gama — în magazinele Cosmetic Shop și pe cosmeticshop.md
+📞 079 811 081
+
+#glimmer #cosmeticshopmd #ingrijireaparului #haircare #antifrizz #protectietermica #chisinau #moldova
+```
