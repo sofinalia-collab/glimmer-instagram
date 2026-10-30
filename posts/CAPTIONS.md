@@ -170,3 +170,61 @@ Produse în Spania. Gândite pentru părul din Moldova.
 
 #glimmer #cosmeticshopmd #ingrijireaparului #haircare #antifrizz #protectietermica #chisinau #moldova
 ```
+
+---
+
+## Reel 02 — Rutina Re:Bond
+
+Fișier: `reel-02-rebond-routine/reel.mp4`, copertă: `reel-02-rebond-routine/cover.jpg`
+
+```
+Rutina Re:Bond în 2 pași 🖤
+
+1️⃣ Re:Bond Shampoo — aplici pe părul umed și pe scalp, formezi spumă prin masaj, clătești bine.
+2️⃣ Re:Bond Conditioner — distribui pe toată lungimea, insiști pe vârfuri, lași 2–3 minute (până la 5 pentru părul poros), clătești cu apă rece sau călduță.
+
+Keratină, ceramide, acid hialuronic, uleiuri de macadamia și marula. Ideal după îndreptare cu keratină, botox și vopsire.
+
+👉 cosmeticshop.md · 079 811 081
+
+#glimmer #rebond #rutinapar #keratina #pardeteriorat #parvopsit #cosmeticshopmd #chisinau
+```
+
+---
+
+## Reel 03 — Dry Shampoo în 2 minute
+
+Fișier: `reel-04-dry-shampoo/reel.mp4`, copertă: `reel-04-dry-shampoo/cover.jpg`
+
+```
+Păr proaspăt în 2 minute, fără apă ⏱️
+
+1️⃣ Agiți și pulverizezi la rădăcini, de la ~20 cm
+2️⃣ Masezi ușor cu vârfurile degetelor
+3️⃣ Lași 2 minute, apoi pieptănezi de la rădăcini spre vârfuri
+
+Glimmer Dry Shampoo cu amidon de orez — volum la rădăcină, fără urme.
+
+👉 cosmeticshop.md · 079 811 081
+
+#glimmer #samponuscat #dryshampoo #volum #hairhack #cosmeticshopmd #chisinau
+```
+
+---
+
+## Reel 04 — Frizz Blocker
+
+Fișier: `reel-03-frizz/reel.mp4`, copertă: `reel-03-frizz/cover.jpg`
+
+```
+Vreme umedă = păr pufos? Nu și cu Frizz Blocker 💧
+
+1️⃣ Aplici pe părul spălat și umed
+2️⃣ Distribui uniform și continui coafarea
+
+Protejează de frizz și umiditate până la 4 spălări — se folosește la fiecare a patra spălare.
+
+👉 cosmeticshop.md · 079 811 081
+
+#glimmer #frizzblocker #antifrizz #parneted #cosmeticshopmd #chisinau
+```

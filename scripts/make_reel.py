@@ -1,6 +1,6 @@
-"""Generate a 9:16 Reel (1080x1920, 30 fps, H.264 + silent AAC) presenting the Glimmer range.
+"""Generate 9:16 Reels (1080x1920, 30 fps, H.264 + silent AAC) presenting the Glimmer range.
 
-Run: python3 scripts/make_reel.py  ->  posts/reel-01-range/reel.mp4 (+ cover.jpg)
+Run: python3 scripts/make_reel.py [reel-name ...]  ->  posts/<reel-name>/reel.mp4 (+ cover.jpg)
 Requires ffmpeg.
 """
 import subprocess
@@ -75,25 +75,52 @@ def photo_scene(name, headline):
     return frame
 
 
-SCENES = [
-    (2.6, logo_scene("Faceți cunoștință cu Glimmer", "Cosmetică profesională pentru păr")),
-    (2.2, product_scene(["rebond-shampoo", "rebond-conditioner"], "Re:Bond · șampon + balsam",
-                        "Keratină + ceramide")),
-    (2.2, product_scene(["frizz-blocker"], "Frizz Blocker", "Stop frizz — până la 4 spălări")),
-    (2.2, product_scene(["heat-protection-220"], "220 Heat Protection", "Protecție până la 220 °C")),
-    (2.2, product_scene(["dry-shampoo"], "Dry Shampoo", "Păr proaspăt fără apă")),
-    (2.2, product_scene(["repair-nourish-shampoo"], "Repair & Nourish Shampoo",
-                        "Strălucire și catifelare")),
-    (2.2, product_scene(["set-heat-protection-repair"], "Set Heat Protection & Repair",
-                        "Curățare + protecție")),
-    (2.6, photo_scene("banner-lifestyle", "Produs în Spania. Gândit pentru Moldova.")),
-    (3.2, logo_scene("Disponibil la Cosmetic Shop", "cosmeticshop.md  ·  079 811 081")),
-]
+REELS = {
+    "reel-01-range": [
+        (2.6, logo_scene("Faceți cunoștință cu Glimmer", "Cosmetică profesională pentru păr")),
+        (2.2, product_scene(["rebond-shampoo", "rebond-conditioner"], "Re:Bond · șampon + balsam",
+                            "Keratină + ceramide")),
+        (2.2, product_scene(["frizz-blocker"], "Frizz Blocker", "Stop frizz — până la 4 spălări")),
+        (2.2, product_scene(["heat-protection-220"], "220 Heat Protection", "Protecție până la 220 °C")),
+        (2.2, product_scene(["dry-shampoo"], "Dry Shampoo", "Păr proaspăt fără apă")),
+        (2.2, product_scene(["repair-nourish-shampoo"], "Repair & Nourish Shampoo",
+                            "Strălucire și catifelare")),
+        (2.2, product_scene(["set-heat-protection-repair"], "Set Heat Protection & Repair",
+                            "Curățare + protecție")),
+        (2.6, photo_scene("banner-lifestyle", "Produs în Spania. Gândit pentru Moldova.")),
+        (3.2, logo_scene("Disponibil la Cosmetic Shop", "cosmeticshop.md  ·  079 811 081")),
+    ],
+    "reel-02-rebond-routine": [
+        (2.6, logo_scene("Rutina Re:Bond", "2 pași pentru păr uscat, poros și deteriorat")),
+        (2.8, product_scene(["rebond-shampoo"], "Pasul 1 · Re:Bond Shampoo",
+                            "Masează pe părul umed, apoi clătește")),
+        (2.8, product_scene(["rebond-conditioner"], "Pasul 2 · Re:Bond Conditioner",
+                            "Lasă 2–3 minute pe lungimi și vârfuri")),
+        (2.8, product_scene(["rebond-shampoo", "rebond-conditioner"], "Rezultatul",
+                            "Păr mai dens, mai elastic și mai strălucitor")),
+    (3.0, logo_scene("Disponibil la Cosmetic Shop", "cosmeticshop.md  ·  079 811 081")),
+    ],
+    "reel-03-frizz": [
+        (2.6, logo_scene("Vreme umedă = păr pufos?", "Glimmer Frizz Blocker")),
+        (2.6, product_scene(["frizz-blocker"], "Pasul 1", "Aplică pe părul spălat și umed")),
+        (2.6, product_scene(["frizz-blocker"], "Pasul 2", "Distribuie uniform și continuă coafarea")),
+        (2.8, product_scene(["frizz-blocker"], "Efectul", "Fără frizz până la 4 spălări")),
+    (3.0, logo_scene("Disponibil la Cosmetic Shop", "cosmeticshop.md  ·  079 811 081")),
+    ],
+    "reel-04-dry-shampoo": [
+        (2.6, logo_scene("Nu ai timp să speli părul?", "Păr proaspăt în 2 minute")),
+        (2.4, product_scene(["dry-shampoo"], "Pasul 1", "Agită și pulverizează la rădăcini, de la 20 cm")),
+        (2.4, product_scene(["dry-shampoo"], "Pasul 2", "Masează ușor cu vârfurile degetelor")),
+        (2.4, product_scene(["dry-shampoo"], "Pasul 3", "Lasă 2 minute, apoi pieptănă")),
+        (2.6, product_scene(["dry-shampoo"], "Rezultatul", "Volum la rădăcină, fără urme")),
+    (3.0, logo_scene("Disponibil la Cosmetic Shop", "cosmeticshop.md  ·  079 811 081")),
+    ],
+}
 
 
-def frames():
+def frames(scenes):
     prev_tail = None
-    for duration, scene in SCENES:
+    for duration, scene in scenes:
         n = int(duration * FPS)
         fade_n = int(FADE * FPS)
         for i in range(n):
@@ -104,8 +131,8 @@ def frames():
         prev_tail = scene(1.0)
 
 
-def main():
-    folder = OUT / "reel-01-range"
+def render(name, scenes):
+    folder = OUT / name
     folder.mkdir(parents=True, exist_ok=True)
     out = folder / "reel.mp4"
     cmd = ["ffmpeg", "-y", "-loglevel", "error",
@@ -115,12 +142,18 @@ def main():
            "-crf", "20", "-preset", "medium", "-movflags", "+faststart",
            "-c:a", "aac", "-b:a", "128k", str(out)]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
-    for img in frames():
+    for img in frames(scenes):
         proc.stdin.write(img.tobytes())
     proc.stdin.close()
     proc.wait()
-    SCENES[0][1](1.0).save(folder / "cover.jpg", "JPEG", quality=90)
+    scenes[0][1](1.0).save(folder / "cover.jpg", "JPEG", quality=90)
+
+
+def main(names=None):
+    for name in names or REELS:
+        render(name, REELS[name])
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    main(sys.argv[1:])

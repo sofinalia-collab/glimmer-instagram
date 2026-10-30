@@ -173,6 +173,31 @@ def story_intro(name, headline, sub, footer):
     return img
 
 
+def story_product(images, tag, headline, sub, footer="Cosmetic Shop  ·  cosmeticshop.md"):
+    """9:16 story: product shot(s) on white, black panel with text; bottom 300px kept clear."""
+    sw, sh, panel_top = 1080, 1920, 1150
+    img = Image.new("RGB", (sw, sh), WHITE)
+    wordmark(img, 120, fill=BLACK, size=70)
+    shots = [product(n) for n in images]
+    shots = [s.crop((int(s.width * 0.1), 0, int(s.width * 0.9), s.height)) for s in shots]
+    area_h, area_w = panel_top - 320, sw - 120
+    scale = min(area_h / shots[0].height, area_w / sum(s.width for s in shots))
+    x = (sw - sum(int(s.width * scale) for s in shots)) // 2
+    for s in shots:
+        s = s.resize((int(s.width * scale), int(s.height * scale)), Image.LANCZOS)
+        img.paste(s, (x, 260))
+        x += s.width
+    d = ImageDraw.Draw(img)
+    d.rectangle((0, panel_top, sw, sh), fill=BLACK)
+    d.text((sw // 2, panel_top + 70), tag.upper(), font=font(SANS_BOLD, 32), fill=SILVER, anchor="ma")
+    y = draw_lines(d, (0, panel_top + 140), wrap(d, headline, font(SANS_BOLD, 64), sw - 160),
+                   font(SANS_BOLD, 64), WHITE, spacing=1.1, anchor_center=True)
+    draw_lines(d, (0, y + 20), wrap(d, sub, font(SANS, 38), sw - 160), font(SANS, 38), SILVER,
+               anchor_center=True)
+    d.text((sw // 2, sh - 280), footer, font=font(SANS, 32), fill=GREY, anchor="ma")
+    return img
+
+
 def save(img, post, n):
     folder = OUT / post
     folder.mkdir(parents=True, exist_ok=True)
@@ -221,6 +246,26 @@ def main():
     save(story_intro("banner-lifestyle", "Faceți cunoștință cu Glimmer",
                      "Cosmetică profesională pentru păr.\nProdus în Spania.",
                      "Cosmetic Shop  ·  cosmeticshop.md"), "story-01-brand", 1)
+
+    # Week 1 stories (31.10–06.11.2026); texts from the product pages on cosmeticshop.md
+    stories = [
+        ("story-02-rebond", ["rebond-shampoo", "rebond-conditioner"], "Re:Bond · șampon + balsam",
+         "Păr deteriorat după vopsire?", "Ideal după îndreptare cu keratină, botox și vopsire."),
+        ("story-03-frizz", ["frizz-blocker"], "Frizz Blocker · 150 ml",
+         "Știai că?", "O aplicare protejează de frizz și umiditate până la 4 spălări."),
+        ("story-04-heat", ["heat-protection-220"], "220 Heat Protection · 175 ml",
+         "Placă, foehn, ondulator?", "Protecție termică până la 220 °C. Nu lipește și nu îngreunează părul."),
+        ("story-05-dry", ["dry-shampoo"], "Dry Shampoo · 150 ml",
+         "2 minute și gata", "Pulverizezi la rădăcini, aștepți 2 minute, pieptănezi. Volum fără apă."),
+        ("story-06-nourish", ["repair-nourish-shampoo"], "Repair & Nourish Shampoo · 200 ml",
+         "Miroase a căpșuni și zmeură", "Curăță delicat, nu încâlcește părul, îi dă strălucire."),
+        ("story-07-set", ["set-heat-protection-repair"], "Set Heat Protection & Repair",
+         "Idee de cadou", "Șampon Repair & Nourish + spray termoprotector 220 °C."),
+        ("story-08-conditioner", ["rebond-conditioner"], "Re:Bond Conditioner · 750 ml",
+         "Efect de „mătase lichidă”", "Luciu oglindă, fără puf și fără electrizare."),
+    ]
+    for folder, images, tag, headline, sub in stories:
+        save(story_product(images, tag, headline, sub), folder, 1)
 
 
 if __name__ == "__main__":
