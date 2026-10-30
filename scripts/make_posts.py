@@ -20,7 +20,6 @@ GREY = (120, 122, 126)
 
 SANS_BOLD = "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
 SANS = "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"
-SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf"
 
 
 def font(path, size):
@@ -58,15 +57,19 @@ def draw_lines(draw, xy, lines, fnt, fill, spacing=1.25, anchor_center=False):
     return y
 
 
-def wordmark(draw, y, fill=BLACK, size=56):
-    draw.text((W // 2, y), "glimmer", font=font(SERIF, size), fill=fill, anchor="ma")
+def wordmark(canvas, y, fill=BLACK, size=56):
+    """Paste the official logo (assets/logo-*.png), centred, ~size px x-height scale."""
+    logo = Image.open(ROOT / "assets" / ("logo-white.png" if fill == WHITE else "logo-black.png"))
+    w = size * 5
+    logo = logo.resize((w, int(logo.height * w / logo.width)), Image.LANCZOS)
+    canvas.paste(logo, ((W - w) // 2, y), logo)
 
 
 def product_card(images, headline, sub, tag=None):
     """White top with product shot(s), black panel with headline at the bottom."""
     canvas = Image.new("RGB", (W, H), WHITE)
     d = ImageDraw.Draw(canvas)
-    wordmark(d, 48)
+    wordmark(canvas, 40)
 
     panel_top = 930
     area_h = panel_top - 140
@@ -97,7 +100,7 @@ def text_slide(kicker, headline, bullets, dark=True):
     bg, fg, muted = (BLACK, WHITE, SILVER) if dark else ((236, 237, 239), BLACK, GREY)
     canvas = Image.new("RGB", (W, H), bg)
     d = ImageDraw.Draw(canvas)
-    wordmark(d, 80, fill=fg)
+    wordmark(canvas, 80, fill=fg)
     hf, bf = font(SANS_BOLD, 84), font(SANS, 46)
     head = wrap(d, headline, hf, W - 180)
     blines = [wrap(d, b, bf, W - 240) for b in bullets]
@@ -123,7 +126,7 @@ def cover_photo(name, headline, sub):
     img = Image.new("RGB", (W, H), BLACK)
     img.paste(photo, (0, 0))
     d = ImageDraw.Draw(img)
-    wordmark(d, panel_top + 50, fill=WHITE, size=60)
+    wordmark(img, panel_top + 45, fill=WHITE, size=60)
     y = draw_lines(d, (0, panel_top + 150), wrap(d, headline, font(SANS_BOLD, 60), W - 144),
                    font(SANS_BOLD, 60), WHITE, spacing=1.1, anchor_center=True)
     draw_lines(d, (0, y + 16), wrap(d, sub, font(SANS, 34), W - 144), font(SANS, 34), SILVER,
@@ -134,7 +137,7 @@ def cover_photo(name, headline, sub):
 def range_grid(names, headline):
     canvas = Image.new("RGB", (W, H), WHITE)
     d = ImageDraw.Draw(canvas)
-    wordmark(d, 48)
+    wordmark(canvas, 40)
     d.text((W // 2, 130), headline.upper(), font=font(SANS_BOLD, 40), fill=BLACK, anchor="ma")
     cols, rows = 4, 2
     cw, ch = (W - 60) // cols, 520
