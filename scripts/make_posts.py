@@ -154,6 +154,25 @@ def range_grid(names, headline):
     return canvas
 
 
+def story_intro(name, headline, sub, footer):
+    """9:16 story (1080x1920): lifestyle photo on top, black panel with logo and text."""
+    sw, sh, panel_top = 1080, 1920, 1100
+    src = product(name)
+    tw = int(src.height * sw / panel_top)
+    left = (src.width - tw) // 2 + 40
+    photo = src.crop((left, 0, left + tw, src.height)).resize((sw, panel_top), Image.LANCZOS)
+    img = Image.new("RGB", (sw, sh), BLACK)
+    img.paste(photo, (0, 0))
+    d = ImageDraw.Draw(img)
+    wordmark(img, panel_top + 90, fill=WHITE, size=90)
+    y = draw_lines(d, (0, panel_top + 330), wrap(d, headline, font(SANS_BOLD, 68), sw - 160),
+                   font(SANS_BOLD, 68), WHITE, spacing=1.1, anchor_center=True)
+    draw_lines(d, (0, y + 20), wrap(d, sub, font(SANS, 40), sw - 160), font(SANS, 40), SILVER,
+               anchor_center=True)
+    d.text((sw // 2, sh - 280), footer, font=font(SANS, 34), fill=SILVER, anchor="ma")
+    return img
+
+
 def save(img, post, n):
     folder = OUT / post
     folder.mkdir(parents=True, exist_ok=True)
@@ -197,6 +216,11 @@ def main():
     save(product_card(["set-heat-protection-repair"], "Duo: curățare + protecție",
                       "Șampon Repair & Nourish 200 ml + spray termoprotector 220 °C 175 ml.",
                       tag="Set Heat Protection & Repair"), "06-set", 1)
+
+    # Story — brand intro (9:16)
+    save(story_intro("banner-lifestyle", "Faceți cunoștință cu Glimmer",
+                     "Cosmetică profesională pentru păr.\nProdus în Spania.",
+                     "Cosmetic Shop  ·  cosmeticshop.md"), "story-01-brand", 1)
 
 
 if __name__ == "__main__":
