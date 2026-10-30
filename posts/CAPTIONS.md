@@ -228,3 +228,138 @@ Protejează de frizz și umiditate până la 4 spălări — se folosește la fi
 
 #glimmer #frizzblocker #antifrizz #parneted #cosmeticshopmd #chisinau
 ```
+
+---
+
+# Săptămâna 2 (07.11–13.11.2026)
+
+Imaginile cu oameni sunt de pe Pexels (atmosferă, vezi `assets/stock/SOURCES.md`); nu reprezintă rezultatul produselor.
+
+## 07 — Frizz Blocker / ploaie
+
+```
+Ploaie afară, păr neted ☔
+
+Glimmer Frizz Blocker creează un strat protector invizibil în jurul fiecărui fir de păr și închide cuticula — protejează de încrețire și umiditate până la 4 spălări.
+
+Cum se folosește: pe părul spălat și umed, distribuiți uniform, continuați coafarea.
+
+150 ml — 161 MDL (în loc de 189 MDL)*
+📍 cosmeticshop.md · 079 811 081
+
+*preț la data publicării pe site
+
+#glimmer #frizzblocker #antifrizz #ploaie #parneted #cosmeticshopmd #chisinau
+```
+
+## 08 — Heat Protection / placă
+
+```
+Mai întâi protecția, apoi placa 🔥
+
+Glimmer 220 Heat Protection creează pe păr o peliculă invizibilă care îl protejează de temperaturi de până la 220 °C — la foehn, placă sau ondulator.
+Nu lipește, nu îngreunează, nu lasă urme. Nu se clătește.
+
+175 ml — 118 MDL (în loc de 139 MDL)*
+📍 cosmeticshop.md · 079 811 081
+
+*preț la data publicării pe site
+
+#glimmer #protectietermica #placadepar #heatprotection #cosmeticshopmd #chisinau
+```
+
+## 09 — Re:Bond / păr vopsit
+
+```
+Păr vopsit, uscat sau poros? Re:Bond 🖤
+
+Șampon fără sulfați + balsam regenerant cu keratină, ceramide, acid hialuronic și uleiuri de macadamia și marula.
+Ideal după îndreptare cu keratină, botox și vopsire.
+
+Re:Bond Shampoo 750 ml — 127 MDL (în loc de 149 MDL)*
+Re:Bond Conditioner 750 ml — 127 MDL (în loc de 149 MDL)*
+📍 cosmeticshop.md · 079 811 081
+
+*preț la data publicării pe site
+
+#glimmer #rebond #parvopsit #keratina #samponfarasulfati #cosmeticshopmd #chisinau
+```
+
+## 10 — Dry Shampoo / dimineața
+
+```
+Dimineață grăbită? ⏱️
+
+Glimmer Dry Shampoo: pulverizezi la rădăcini, masezi ușor, lași 2 minute și pieptănezi.
+Amidonul de orez absoarbe excesul de sebum, iar părul capătă volum — fără apă și fără urme.
+
+150 ml — 110 MDL (în loc de 129 MDL)*
+📍 cosmeticshop.md · 079 811 081
+
+*preț la data publicării pe site
+
+#glimmer #samponuscat #dryshampoo #volum #cosmeticshopmd #chisinau
+```
+
+## 11 — Ghid: protecția termică (carusel, 4 imagini)
+
+```
+3 lucruri despre protecția termică 🔥 (glisează →)
+
+1️⃣ Se aplică pe părul spălat și umed, uscat cu prosopul — de la rădăcini până la vârfuri, cu pieptenele.
+2️⃣ Glimmer 220 Heat Protection protejează până la 220 °C — la foehn, placă și ondulator — și reduce electrizarea.
+3️⃣ Nu se clătește: nu lipește, nu îngreunează părul și nu lasă urme.
+
+Salvează postarea ca s-o ai la îndemână 📌
+
+175 ml — 118 MDL (în loc de 139 MDL)*
+📍 cosmeticshop.md · 079 811 081
+
+*preț la data publicării pe site
+
+#glimmer #protectietermica #sfaturipar #haircare #cosmeticshopmd #chisinau
+```
+
+## Reel 05 — Păr lucios
+
+Fișier: `reel-05-shine/reel.mp4`
+
+```
+Vrei păr lucios? Începe cu spălarea ✨
+
+Re:Bond Shampoo — curățare delicată, fără sulfați.
+Re:Bond Conditioner — luciu oglindă, fără puf și fără electrizare; ușurează pieptănarea.
+
+👉 cosmeticshop.md · 079 811 081
+
+#glimmer #rebond #parlucios #haircare #cosmeticshopmd #chisinau
+```
+
+## Reel 06 — Coafare termică
+
+Fișier: `reel-06-heat/reel.mp4`
+
+```
+Foehn, placă sau ondulator în fiecare zi? 🔥
+
+Glimmer 220 Heat Protection — protecție până la 220 °C.
+Pe părul umed, de la rădăcini la vârfuri. Nu se clătește.
+
+👉 cosmeticshop.md · 079 811 081
+
+#glimmer #protectietermica #coafare #haircare #cosmeticshopmd #chisinau
+```
+
+## Reel 07 — Umiditate
+
+Fișier: `reel-07-humidity/reel.mp4`
+
+```
+Noiembrie. Ploaie. Umezeală. Și părul se încrețește ☔
+
+Glimmer Frizz Blocker — protecție de frizz și umiditate până la 4 spălări.
+
+👉 cosmeticshop.md · 079 811 081
+
+#glimmer #frizzblocker #antifrizz #ploaie #cosmeticshopmd #chisinau
+```
