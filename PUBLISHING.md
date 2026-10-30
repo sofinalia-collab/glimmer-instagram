@@ -9,7 +9,7 @@ Respectă RULES.md (imagini de produs doar de pe cosmeticshop.md/glimmer).
 Pași la fiecare rulare:
 1. Ia ziua de azi (Europe/Chisinau) din `schedule.json`; publică doar elementele cu `status: "pending"`.
 2. Verifică că fiecare URL de imagine/video răspunde 200 (repo-ul trebuie să fie public).
-3. Pentru `image_post`: deschide `price_check_urls` și compară prețurile cu cele din `caption`.
+3. Pentru `image_post` și `carousel`: deschide `price_check_urls` și compară prețurile cu cele din `caption`.
    Dacă diferă, actualizează prețurile în caption înainte de publicare; dacă produsul nu e în stoc, nu publica și raportează.
 4. Publică: story → `create_story`, image_post → `create_image_post`, carousel → `create_carousel_post` (image_urls), reel → `create_video_post` (share_to_feed: true, cover_url).
 5. Marchează `status: "published"` + `media_id`, commit și push.
