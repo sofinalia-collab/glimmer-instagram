@@ -1,8 +1,8 @@
 # Publicare automată — săptămâna 31.10–06.11.2026
 
-Programul: `posts/schedule.json` (o zi = o listă de elemente). Totul se publică zilnic în jurul orei 09:00 (Europe/Chisinau),
+Programul: `posts/schedule.json` (o zi = o listă de elemente). Totul se publică zilnic la 08:40 (Europe/Chisinau),
 pe contul Instagram glimmer3947 (Windsor.ai, connector `instagram`, account `17841468641081785`).
-Utilizatoarea a aprobat publicarea fără aprobare suplimentară pentru această săptămână.
+Publicarea fără aprobare suplimentară a fost cerută explicit pentru această săptămână.
 
 Pași la fiecare rulare:
 1. Ia ziua de azi (Europe/Chisinau) din `schedule.json`; publică doar elementele cu `status: "pending"`.
