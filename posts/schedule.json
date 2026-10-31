@@ -9,14 +9,16 @@
         {
           "type": "story",
           "image_url": "https://raw.githubusercontent.com/sofinalia-collab/glimmer-instagram/claude/ecstatic-feynman-k2jyq5/posts/story-02-rebond/1.jpg",
-          "status": "pending"
+          "status": "published",
+          "media_id": "18141467593536407"
         },
         {
           "type": "reel",
           "video_url": "https://raw.githubusercontent.com/sofinalia-collab/glimmer-instagram/claude/ecstatic-feynman-k2jyq5/posts/reel-02-rebond-routine/reel.mp4",
           "cover_url": "https://raw.githubusercontent.com/sofinalia-collab/glimmer-instagram/claude/ecstatic-feynman-k2jyq5/posts/reel-02-rebond-routine/cover.jpg",
           "caption": "Rutina Re:Bond în 2 pași 🖤\n\n1️⃣ Re:Bond Shampoo — aplici pe părul umed și pe scalp, formezi spumă prin masaj, clătești bine.\n2️⃣ Re:Bond Conditioner — distribui pe toată lungimea, insiști pe vârfuri, lași 2–3 minute (până la 5 pentru părul poros), clătești cu apă rece sau călduță.\n\nKeratină, ceramide, acid hialuronic, uleiuri de macadamia și marula. Ideal după îndreptare cu keratină, botox și vopsire.\n\n👉 cosmeticshop.md · 079 811 081\n\n#glimmer #rebond #rutinapar #keratina #pardeteriorat #parvopsit #cosmeticshopmd #chisinau",
-          "status": "pending"
+          "status": "unknown",
+          "note": "create_video_post timed out 2026-10-31 08:41; not visible in cached Windsor data — check profile before retrying"
         }
       ]
     },
