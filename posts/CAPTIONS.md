@@ -42,7 +42,7 @@ Re:Bond — duo-ul pentru părul uscat, poros și deteriorat 🖤
 ✔️ Pentru toate tipurile de păr
 ✔️ Ideal după îndreptare cu keratină, botox și vopsire
 
-750 ml fiecare — 127 MDL (în loc de 149 MDL)*
+750 ml fiecare — 142 MDL (în loc de 149 MDL)*
 📍 cosmeticshop.md · 079 811 081
 
 *preț la data publicării pe site

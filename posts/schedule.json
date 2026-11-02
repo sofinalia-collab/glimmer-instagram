@@ -40,17 +40,20 @@
         {
           "type": "story",
           "image_url": "https://raw.githubusercontent.com/sofinalia-collab/glimmer-instagram/claude/ecstatic-feynman-k2jyq5/posts/story-04-heat/1.jpg",
-          "status": "pending"
+          "status": "published",
+          "media_id": "17947418367358122"
         },
         {
           "type": "image_post",
           "image_url": "https://raw.githubusercontent.com/sofinalia-collab/glimmer-instagram/claude/ecstatic-feynman-k2jyq5/posts/02-rebond/1.jpg",
-          "caption": "Re:Bond — duo-ul pentru părul uscat, poros și deteriorat 🖤\n\n🧴 Șampon fără sulfați Re:Bond Shampoo — formulă delicată pe bază de aminoacizi, cu keratină și ceramide. Curăță fără să usuce firul.\n🧴 Balsam Re:Bond Conditioner — cu enzime (Bacillus Ferment), keratină și complex lipidic. Sigilează cuticula, elimină aspectul pufos și dă luciu.\n\nÎn formule: acid hialuronic, uleiuri de macadamia și marula, ceramide, extract de ghimbir.\n\n✔️ Pentru toate tipurile de păr\n✔️ Ideal după îndreptare cu keratină, botox și vopsire\n\n750 ml fiecare — 127 MDL (în loc de 149 MDL)*\n📍 cosmeticshop.md · 079 811 081\n\n*preț la data publicării pe site\n\n#glimmer #rebond #samponfarasulfati #keratina #parvopsit #pardeteriorat #cosmeticshopmd #chisinau",
+          "caption": "Re:Bond — duo-ul pentru părul uscat, poros și deteriorat 🖤\n\n🧴 Șampon fără sulfați Re:Bond Shampoo — formulă delicată pe bază de aminoacizi, cu keratină și ceramide. Curăță fără să usuce firul.\n🧴 Balsam Re:Bond Conditioner — cu enzime (Bacillus Ferment), keratină și complex lipidic. Sigilează cuticula, elimină aspectul pufos și dă luciu.\n\nÎn formule: acid hialuronic, uleiuri de macadamia și marula, ceramide, extract de ghimbir.\n\n✔️ Pentru toate tipurile de păr\n✔️ Ideal după îndreptare cu keratină, botox și vopsire\n\n750 ml fiecare — 142 MDL (în loc de 149 MDL)*\n📍 cosmeticshop.md · 079 811 081\n\n*preț la data publicării pe site\n\n#glimmer #rebond #samponfarasulfati #keratina #parvopsit #pardeteriorat #cosmeticshopmd #chisinau",
           "price_check_urls": [
             "https://cosmeticshop.md/glimmer-ampon-fara-sulfati-rebond-shampoo",
             "https://cosmeticshop.md/glimmer-balsam-regenerant-rebond-conditioner"
           ],
-          "status": "pending"
+          "status": "published",
+          "media_id": "18378645235244648",
+          "note": "price updated 127->142 MDL before publishing (site 02.11)"
         }
       ]
     },
