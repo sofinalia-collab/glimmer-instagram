@@ -63,16 +63,19 @@
         {
           "type": "story",
           "image_url": "https://raw.githubusercontent.com/sofinalia-collab/glimmer-instagram/claude/ecstatic-feynman-k2jyq5/posts/story-05-dry/1.jpg",
-          "status": "pending"
+          "status": "published",
+          "media_id": "18112865462461284"
         },
         {
           "type": "image_post",
           "image_url": "https://raw.githubusercontent.com/sofinalia-collab/glimmer-instagram/claude/ecstatic-feynman-k2jyq5/posts/03-frizz-blocker/1.jpg",
-          "caption": "Umiditate afară? Părul rămâne neted. 💧➡️✨\n\nGlimmer Frizz Blocker — spray hidratant care elimină încrețirea și dă moliciune și strălucire.\nBiopolimerul termoactiv de origine vegetală creează un strat protector invizibil în jurul fiecărui fir și închide cuticula.\n\n⏳ Protejează de frizz și umiditate până la 4 spălări — se aplică la fiecare a patra spălare.\n🌿 Cu acid glicolic și extract de alge Porphyra.\n\nCum se folosește: pe părul spălat și umed, distribuiți uniform, continuați coafarea.\n\n150 ml — 161 MDL (în loc de 189 MDL)*\n📍 cosmeticshop.md · 079 811 081\n\n*preț la data publicării pe site\n\n#glimmer #frizzblocker #antifrizz #parcret #parneted #cosmeticshopmd #chisinau #haircare",
+          "caption": "Umiditate afară? Părul rămâne neted. 💧➡️✨\n\nGlimmer Frizz Blocker — spray hidratant care elimină încrețirea și dă moliciune și strălucire.\nBiopolimerul termoactiv de origine vegetală creează un strat protector invizibil în jurul fiecărui fir și închide cuticula.\n\n⏳ Protejează de frizz și umiditate până la 4 spălări — se aplică la fiecare a patra spălare.\n🌿 Cu acid glicolic și extract de alge Porphyra.\n\nCum se folosește: pe părul spălat și umed, distribuiți uniform, continuați coafarea.\n\n150 ml — 180 MDL (în loc de 189 MDL)*\n📍 cosmeticshop.md · 079 811 081\n\n*preț la data publicării pe site\n\n#glimmer #frizzblocker #antifrizz #parcret #parneted #cosmeticshopmd #chisinau #haircare",
           "price_check_urls": [
             "https://cosmeticshop.md/glimmer-spray-pentru-par-frizz-blocker"
           ],
-          "status": "pending"
+          "status": "published",
+          "media_id": "18127261961513761",
+          "note": "price updated 161->180 MDL before publishing (site 03.11)"
         },
         {
           "type": "reel",
