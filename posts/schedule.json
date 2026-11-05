@@ -126,7 +126,9 @@
           "price_check_urls": [
             "https://cosmeticshop.md/glimmer-sampon-uscat-pentru-par-dry-shampoo"
           ],
-          "status": "pending"
+          "status": "published",
+          "media_id": "18483692776116443",
+          "note": "price updated 110->123 MDL before publishing (site 05.11)"
         },
         {
           "type": "reel",
