@@ -167,7 +167,8 @@
         {
           "type": "story",
           "image_url": "https://raw.githubusercontent.com/sofinalia-collab/glimmer-instagram/claude/ecstatic-feynman-k2jyq5/posts/story-09-shine/1.jpg",
-          "status": "pending"
+          "status": "published",
+          "media_id": "18148977064598792"
         },
         {
           "type": "reel",
