@@ -207,7 +207,9 @@
           "price_check_urls": [
             "https://cosmeticshop.md/glimmer-spray-pentru-par-frizz-blocker"
           ],
-          "status": "pending"
+          "status": "published",
+          "media_id": "18024916199866711",
+          "note": "price updated 161->180 MDL before publishing (site 09.11)"
         }
       ]
     },
