@@ -219,7 +219,8 @@
         {
           "type": "story",
           "image_url": "https://raw.githubusercontent.com/sofinalia-collab/glimmer-instagram/claude/ecstatic-feynman-k2jyq5/posts/story-12-heat/1.jpg",
-          "status": "pending"
+          "status": "held",
+          "note": "not published 10.11: 220 Heat Protection shows \"Revine curând\" (out of stock) on cosmeticshop.md; waiting for owner decision"
         },
         {
           "type": "image_post",
@@ -228,14 +229,16 @@
           "price_check_urls": [
             "https://cosmeticshop.md/glimmer-spray-termoprotector-220-heat-protection"
           ],
-          "status": "pending"
+          "status": "held",
+          "note": "not published 10.11: 220 Heat Protection shows \"Revine curând\" (out of stock) on cosmeticshop.md; waiting for owner decision"
         },
         {
           "type": "reel",
           "video_url": "https://raw.githubusercontent.com/sofinalia-collab/glimmer-instagram/claude/ecstatic-feynman-k2jyq5/posts/reel-06-heat/reel.mp4",
           "cover_url": "https://raw.githubusercontent.com/sofinalia-collab/glimmer-instagram/claude/ecstatic-feynman-k2jyq5/posts/reel-06-heat/cover.jpg",
           "caption": "Foehn, placă sau ondulator în fiecare zi? 🔥\n\nGlimmer 220 Heat Protection — protecție până la 220 °C.\nPe părul umed, de la rădăcini la vârfuri. Nu se clătește.\n\n👉 cosmeticshop.md · 079 811 081\n\n#glimmer #protectietermica #coafare #haircare #cosmeticshopmd #chisinau",
-          "status": "pending"
+          "status": "held",
+          "note": "not published 10.11: 220 Heat Protection shows \"Revine curând\" (out of stock) on cosmeticshop.md; waiting for owner decision"
         }
       ]
     },
