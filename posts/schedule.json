@@ -248,7 +248,8 @@
         {
           "type": "story",
           "image_url": "https://raw.githubusercontent.com/sofinalia-collab/glimmer-instagram/claude/ecstatic-feynman-k2jyq5/posts/story-13-nourish/1.jpg",
-          "status": "pending"
+          "status": "published",
+          "media_id": "18087049781325333"
         },
         {
           "type": "image_post",
@@ -258,7 +259,9 @@
             "https://cosmeticshop.md/glimmer-ampon-fara-sulfati-rebond-shampoo",
             "https://cosmeticshop.md/glimmer-balsam-regenerant-rebond-conditioner"
           ],
-          "status": "pending"
+          "status": "published",
+          "media_id": "18129122381511795",
+          "note": "prices updated 127->142 MDL before publishing (site 11.11)"
         }
       ]
     },
