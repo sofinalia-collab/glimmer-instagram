@@ -271,7 +271,8 @@
         {
           "type": "story",
           "image_url": "https://raw.githubusercontent.com/sofinalia-collab/glimmer-instagram/claude/ecstatic-feynman-k2jyq5/posts/story-14-dry/1.jpg",
-          "status": "pending"
+          "status": "published",
+          "media_id": "17936403231145557"
         },
         {
           "type": "image_post",
@@ -280,7 +281,9 @@
           "price_check_urls": [
             "https://cosmeticshop.md/glimmer-sampon-uscat-pentru-par-dry-shampoo"
           ],
-          "status": "pending"
+          "status": "published",
+          "media_id": "17898617811416772",
+          "note": "price updated 110->123 MDL before publishing (site 12.11)"
         },
         {
           "type": "reel",
