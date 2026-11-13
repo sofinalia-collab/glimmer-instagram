@@ -316,7 +316,9 @@
           "price_check_urls": [
             "https://cosmeticshop.md/glimmer-spray-termoprotector-220-heat-protection"
           ],
-          "status": "pending"
+          "status": "published",
+          "media_id": "17880808887635739",
+          "note": "price updated 118->132 MDL before publishing (site 13.11)"
         }
       ]
     }
